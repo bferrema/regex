@@ -2,7 +2,7 @@
 
 regex to url
 
-/^https?:\/\/(?:www\.)?(([-\w]{1,256})\b.[\w]{1,6}[:]{1}[\d]{1,6000}|(localhost))(?:[-\w\/=]*)$/
+/^https?:\/\/(?:www\.)?(([-\w]{1,256})\b.[\w]{1,6}[:]{1}[\d]{1,65535}|(localhost))(?:[-\w\/=]*)$/
 
 regex to semver version
 
