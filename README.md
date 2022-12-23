@@ -6,7 +6,7 @@ regex to url
 
 regex to semver version
 
-/^v(\d*)(\.(\d*)(\.(\d*))?(?:-([\w.\-_]*))?)?$/
+/^v\d*?(\.\d*)?(\.\d*)?(?:-([\w-]*))?$/
 
 regex to hostname
 
